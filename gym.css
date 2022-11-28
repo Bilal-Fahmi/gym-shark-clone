@@ -1,0 +1,484 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+/* header */
+.header-content{
+    display: flex;
+    background-color: white;
+   
+}
+.head1{
+    /* margin: 25px; */
+    width: 20%;
+    padding: 15px;
+    
+}
+.shark-icon{
+    height: 40px;
+    justify-content: flex-start;
+   
+    
+
+}
+.header-icons
+{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding: 15px;
+}
+.header-icons img{
+   
+    height:25px;
+    
+    margin-left: 25px;
+    justify-content: flex-end;
+
+    
+    
+}
+
+.head2{
+    display: flex;
+    width: 40%;
+    padding: 16px;
+    justify-content: center;
+    padding: 16px;
+    font-size: 1.3rem;
+    margin-left: 180px;
+    
+}
+
+.head2 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600;   
+}
+
+/* orange */
+.orange{
+    background-image: url(/images/orange\ bg.webp);
+    height: 740px;
+    justify-content: center;
+    /* overflow-y: hidden; */
+}
+.orange1{
+    padding-top:180px;
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.orange1 img{
+    
+    height: 200px;
+    
+    /* margin-left: 380px;
+    margin-top: 200px; */
+}
+.but1{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding: 11px;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+    font-size:.9rem;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-align: center;
+    width: 100px;
+    margin-left: 340px;
+    
+}
+.p{
+    padding: 10px;
+}
+
+/* black friday */
+.black-friday{
+    padding:32px ;
+    margin-left: 66px;
+}
+
+.black-friday p{
+    text-transform: uppercase;
+    color: #53565a;
+    font-weight: 700;
+    font-size: 1.3rem
+    
+}
+.black-friday h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* .black-friday img{
+    height: 25vw;
+    margin-right: 18px;
+} */
+
+.black-text {
+    padding-bottom: 12px;
+    display: flex;
+ }
+.black-text a{
+    font-weight: 700;
+    font-size: 1.5rem;
+   margin-left: auto;
+   margin-right: 100px;
+    
+}
+.black-friday h3{
+    color: #444;
+    font-weight: 400;
+}
+.black-friday .item-color{
+    color: #6e6e6e;
+}
+.black-friday .item-price{
+font-weight: 600;
+}
+/* .img1 .item-color .item-price,h3{
+    display :flex;
+    
+} */
+.black-images{
+    display: flex;
+    
+   
+    
+}
+.black-images img{
+    height:52vh
+     
+}
+
+.img2{
+    margin-left: 15px;
+}
+.img3{
+    margin-left: 15px;
+}
+.img4{
+    margin-left: 15px;
+}
+
+
+/* best dumbells */
+
+
+.best{
+background: url(/images/dumbells.webp) center no-repeat;
+/* background-size: 100% 100%;
+height: auto;
+width: auto; 
+ */
+height: 55rem;
+   width: 100%;
+   background-size: cover;
+   
+    /*  */
+
+}
+/* .div1 {
+    display: flex;
+
+    width: 50%;
+} */
+
+.but2{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+    font-size:1.1rem;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-align: center;
+    width: 100px;
+    margin-left: 4.8rem;
+    
+}
+
+.best img{
+    height: 40vh;
+    margin:65px;
+    margin-top: 100px;
+}
+.best p{
+    margin-left: 4.8rem;
+}
+
+/* greybg */
+.greybg{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 40rem;
+
+
+}
+
+.shark-t{
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    background: url(/images/gym\ shark\ t.webp);
+    background-size: cover ;
+    
+    width: 100%;
+    
+    
+    
+}
+.shark-t .ts{
+    font-size: 3.2rem;
+    margin-top: 210px;
+    margin-left: 65px;
+    
+    
+}
+
+.socks{
+    text-transform: uppercase;
+    font-weight: 700;
+
+    background: url(/images/socks.webp);
+    background-size: cover ;
+    /* background-position:center; */
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.socks .ss{
+    font-size: 3.2rem;
+    margin-top: 270px;
+    margin-left: 65px;
+}
+
+
+
+ /* description */
+
+ .descreption{
+    padding: 30px;
+ }
+
+ .des-text{
+    padding: 30px;
+    border-style:solid;
+    border-color: #817d7d;
+    border-width: .1px;
+    
+ }
+ .des-text #pp{
+    padding:11px ;
+    font-weight: 600;
+    font-size: 1.2rem;
+ }
+  
+ .des-text #p1{
+    padding:6px ;
+    color:#6e6e6e ;
+    font-size: 1.2rem;
+
+ }
+ .des-text h3{
+    
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 12px;
+ }
+
+/* footer */
+
+ .footer-lists{
+    display: flex;
+    font-size: 1.1rem;
+    padding: 26px;
+    margin-left: 40px;
+
+    
+ }
+
+ .footer a{
+    text-decoration: none;
+    color: rgb(83, 86, 90);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+ }
+
+ .footer-lists .list-head{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 3rem;
+
+ }
+ .help{
+    margin-right: 70px;
+ }
+
+ .my{
+    margin-right: 70px;
+
+ }
+
+ .pages{
+    margin-right: 70px; 
+ }
+ .divider{
+    width: 100%;
+    height: 3px;
+    border-top: 1px #ccc solid;
+    margin: 30px 0; 
+}
+
+
+
+/* more gym */
+
+.more-gym
+{
+    margin-left: 31rem;
+
+} 
+.more-img{
+    display: flex;   
+}
+.more-img img{
+    /* padding-top: 55%; */
+    /* width: 50rem; */
+    
+       height:10rem;
+}
+.blog{
+    margin-right: 20px;
+    
+}
+.blog img{
+    width: 240px;
+}
+
+.email{
+    margin-right: 20px;
+}
+.training{
+    margin-right: 20px;
+}
+
+/* small icons */
+
+.small-icons{
+    display: flex;
+}
+
+.payment img{
+    width: auto;
+    height: 2.5rem;
+    margin-right: 6px;
+
+}
+.payment{
+    margin-left: 60px;
+}
+
+
+
+
+.social{
+    margin-left: 69rem;
+}
+
+.social img{
+    /* width: 25px; */
+    height: 45px;
+    margin-right: 11px;
+    
+}
+
+.more-gym h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.more-gym h3{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    background-color: #d2d2d2;
+    
+    
+}
+
+
+/* end text */
+
+.end-text{
+    display: flex;
+
+
+}
+
+.text-1{
+    color: rgb(68, 68, 68);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: .5rem 2rem;
+
+}
+
+
+.text-2{
+    
+    margin-left: 37rem;
+    color:rgb(83, 86, 90);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    
+}
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+    
+    
